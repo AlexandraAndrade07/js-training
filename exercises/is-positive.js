@@ -8,15 +8,15 @@
  */
 
 // Your code:
-function isPositive(int())
+function isPositive(i)
 {
-	if (int ===<0) 
+	if (0 < i) 
 	{
-	  console.log(true);	
+	  return(true);	
 	}
 	else
 	{
-	  console.log(false);
+	  return(false);
 	}
 }
 
