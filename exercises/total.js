@@ -5,6 +5,14 @@
  * and return the total
  *
  */
+function total (arrN)
+{
+	let result = 0;
+	for (let i = arrN.length - 1; i >= 0; i--) {
+		result = result + arrN[i]
+	}
+	return result
+}
 
 
 //* Begin of tests

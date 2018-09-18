@@ -8,6 +8,10 @@
  */
 
 // Your code :
+function getLength(element){
+	let a = element.length;
+	return a;
+}
 
 //* Begin of tests
 const assert = require('assert')
