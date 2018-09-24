@@ -18,7 +18,7 @@ const sourceObject = {
 // Your code :
 
 function get (a){
-	return sourceObject.a;
+	return sourceObject[a];
 }
 
 //* Begin of tests

@@ -6,6 +6,11 @@
  * and in lowercase for the rest of the string
  *
  */
+ function capitalize (argument) {
+ 	let indexArg = argument.getFirst()
+ 	indexArg = indexArg.upper;
+ 	let restOf = 
+ }
 
 
 //* Begin of tests
